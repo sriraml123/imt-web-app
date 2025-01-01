@@ -7,23 +7,23 @@ import HeroSection from "@/app/components/slide-image/page";
 import Link from "next/link";
 
 export default function Home() {
-  return (
-    <div>
-      <Header />
+    return (
+        <div>
+            <Header />
 
-      <div>
-        <HeroSection />
-      </div>
+            <div>
+                <HeroSection />
+            </div>
 
-      <div>
-        <Courses />
+            <div>
+                <Courses />
 
-        <OurServices />
+                <OurServices />
 
-      </div>
-      <About />
+            </div>
+            <About />
 
-      <Footer />
-    </div>
-  );
+            <Footer />
+        </div>
+    );
 }
