@@ -21,7 +21,7 @@ const HeroSection = () => {
     }, 5000); // Change image every 5 seconds
 
     return () => clearInterval(interval);
-  }, []);
+  }, [backgroundImages.length]);
 
   return (
     <div className="relative w-full h-screen overflow-hidden">
@@ -46,7 +46,7 @@ const HeroSection = () => {
       <div className="absolute inset-0 flex flex-col items-center justify-center text-white p-8">
         <div className="max-w-4xl text-center">
           <h1 className="text-5xl font-bold mb-6">
-            India's Leading Institute for Software Training and Placements with Real-Time Internships.
+            India&apos;s Leading Institute for Software Training and Placements with Real-Time Internships.
           </h1>
           <h2 className="text-2xl mb-8">
             Elevate Your Software Skills with Our Job-Oriented Intensive Training and Internship Program!

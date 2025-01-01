@@ -20,7 +20,7 @@ const Header = () => {
                     <a href="https://chat.whatsapp.com/GG3fFkiutuf6rsBbF4ajIJ" target="_blank"
                         rel="noopener noreferrer" className="flex items-center gap-1 hover:text-gray-200">
                         <Send size={16} />
-                        Join What's App Group
+                        Join What&apos;s App Group
                     </a>
                     <a href="#" className="flex items-center gap-1 hover:text-gray-200">
                         <Youtube size={16} />

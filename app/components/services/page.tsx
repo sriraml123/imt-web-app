@@ -2,7 +2,13 @@
 
 import React, { useState, useEffect } from 'react';
 
-const ServiceCard = ({ title, description, image }) => (
+interface ServiceCardProps {
+    title: string;
+    description: string;
+    image: string;
+  }
+
+const ServiceCard: React.FC<ServiceCardProps> = ({ title, description, image }) => (
     <div className="bg-white rounded-lg overflow-hidden shadow-lg h-[660px] flex flex-col">
         <img src={image} alt={title} className="w-full h-64 object-cover flex-shrink-0" />
         <div className="p-6 flex flex-col h-full">
