@@ -48,7 +48,7 @@ const Header = () => {
             {
                 title: 'Azure Data Engineer',
                 category: 'Cloud Data Engineer',
-                image: '../../public/azure-data-engineer.webp',
+                image: 'https://www.kevinrchant.com/wp-content/uploads/2021/05/microsoft-certified-azure-data-engineer-associate.png',
                 // rating: 4.8,
                 // students: 1200,
                 description: 'Master Azure data engineering with hands-on training in data lakes, data warehousing, and ETL processes.',
@@ -60,7 +60,7 @@ const Header = () => {
             {
                 title: 'AWS Data Engineer',
                 category: 'Cloud Data Engineer',
-                image: '/api/placeholder/80/80',
+                image: 'https://d1.awsstatic.com/certification/badges/AWS-Certified-Data-Engineer-Associate_badge_300x300.a231ff0ff32a28adf061d3f7fa36564964b4a4b5.png',
                 // rating: 4.7,
                 // students: 980,
                 description: 'Comprehensive AWS data engineering course covering S3, Redshift, and EMR.',
@@ -72,7 +72,7 @@ const Header = () => {
             {
                 title: 'Google Data Engineer',
                 category: 'Cloud Data Engineer',
-                image: '/api/placeholder/80/80',
+                image: 'https://miro.medium.com/v2/resize:fit:1200/1*T0_akZfhC_BmZNc0znAtdQ.png',
                 // rating: 4.9,
                 // students: 750,
                 description: 'Learn GCP data engineering with BigQuery, Dataflow, and Pub/Sub.',
@@ -86,14 +86,14 @@ const Header = () => {
             {
                 title: 'Machine Learning Engineer',
                 category: 'AI',
-                image: '/api/placeholder/80/80',
+                image: 'https://smartclick.ai/wp-content/uploads/2021/11/machine-learning-engineer.jpg',
                 // rating: 4.9,
                 // students: 850
             },
             {
                 title: 'Deep Learning Specialist',
                 category: 'AI',
-                image: '/api/placeholder/80/80',
+                image: 'https://d15cw65ipctsrr.cloudfront.net/a4/079d5e7c7b45ac9107f22bfcfeab91/Specialization-logo.png',
                 // rating: 4.8,
                 // students: 720
             }
@@ -102,22 +102,54 @@ const Header = () => {
             {
                 title: 'AWS DevOps',
                 category: 'DevOps Engineer',
-                image: '/api/placeholder/80/80',
+                image: 'https://d1.awsstatic.com/training-and-certification/certification-badges/AWS-Certified-DevOps-Engineer-Professional_badge.7492bf660b5351e51f3f8015e4818924294a7e8c.png',
                 // rating: 4.7,
                 // students: 650
             },
             {
                 title: 'Azure DevOps',
                 category: 'DevOps Engineer',
-                image: '/api/placeholder/80/80',
+                image: 'https://miro.medium.com/v2/resize:fit:800/1*8orwInnxqPRhrcKf9aOo9Q.png',
                 // rating: 4.6,
                 // students: 580
             }
         ],
         'Data Analytics & Data science': [], // Added empty array
         'Data science & AI': [], // Added empty array
-        'Fullstack Development': [], // Added empty array
-        'Testing': [], // Added empty array
+        'Fullstack Development': [
+            {
+                title: 'Python Full Stack Development',
+                category: 'Fullstack Development',
+                image: 'https://cloudsynergy.in/wp-content/uploads/2023/11/python-fiullstack-1.png',
+            },
+            {
+                title: 'Java Full Stack Development',
+                category: 'Fullstack Development',
+                image: 'https://www.vagdevitechnologies.com/wp-content/uploads/2024/11/Java-full-stack-1024x683.jpeg',
+            },
+            {
+                title: 'PHP Full Stack Development',
+                category: 'Fullstack Development',
+                image: 'https://backendapi.iihtsrt.com/wp-content/uploads/2022/07/PHP-Full-Stack.jpg?q=75',
+            },
+            {
+                title: '.NET Full Stack Development',
+                category: 'Fullstack Development',
+                image: 'https://avantustraining.com/wp-content/uploads/2023/03/net-fullstack-developer.webp',
+            },
+        ],
+        'Testing': [
+            {
+                title: 'Manual Testing',
+                category: 'Testing',
+                image: 'https://cdn.azilen.com/wp-content/uploads/2023/07/Manual-testing.jpg',
+            },
+            {
+                title: 'Automation Testing',
+                category: 'Testing',
+                image: 'https://qentelli.com/sites/default/files/2024-01/top-automation-testing-tools.png',
+            },
+        ],
         'Cyber Security': [], // Added empty array
         'Medical Coding': [] // Added empty array
     };
