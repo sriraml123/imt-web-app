@@ -1,11 +1,11 @@
 "use client"
 
 import React, { useState } from 'react';
-import { ChevronDown, Search, Bell, MessageCircle } from 'lucide-react';
+import { MessageCircle } from 'lucide-react';
 
 const CourseListing = () => {
   const [selectedCategory, setSelectedCategory] = useState('All');
-  
+
   const categories = [
     'Cloud Data Engineer',
     'AI & Data Science',
@@ -83,11 +83,10 @@ const CourseListing = () => {
               {categories.map((category) => (
                 <button
                   key={category}
-                  className={`w-full text-left px-3 py-2 rounded-md transition ${
-                    selectedCategory === category
+                  className={`w-full text-left px-3 py-2 rounded-md transition ${selectedCategory === category
                       ? 'bg-blue-50 text-blue-700'
                       : 'text-gray-600 hover:bg-gray-50'
-                  }`}
+                    }`}
                   onClick={() => setSelectedCategory(category)}
                 >
                   {category}

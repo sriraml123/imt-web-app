@@ -146,7 +146,7 @@ const Header = () => {
                     </a>
                     <a href="https://chat.whatsapp.com/GG3fFkiutuf6rsBbF4ajIJ" className="flex items-center gap-1 hover:text-gray-200">
                         <Send size={16} />
-                        Join What's App Group
+                        Join Whats App Group
                     </a>
                     <a href="#" className="flex items-center gap-1 hover:text-gray-200">
                         <Youtube size={16} color="red" />

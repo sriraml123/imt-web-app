@@ -1,7 +1,7 @@
 "use client"
 
 import React, { useState } from 'react';
-import { Youtube, Facebook, Twitter, Linkedin, Instagram, Send, Phone, Globe, X } from 'lucide-react';
+import { Youtube, Facebook, Linkedin, Instagram, Send, Phone, Globe, X } from 'lucide-react';
 
 const LearnerSupportSection = () => {
     const [isChatOpen, setIsChatOpen] = useState(false);
